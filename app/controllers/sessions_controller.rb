@@ -11,6 +11,8 @@ class SessionsController < ApplicationController
     # like 'github' or 'facebook' or some other authentication broker
     pp request.env['omniauth.auth']
 
+
+      binding.pry
     # We're going to save the authentication information in the session
     # for demonstration purposes. We want to keep this data somewhere so that,
     # after redirect, we have access to the returned data
