@@ -33,6 +33,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
@@ -42,6 +43,7 @@ group :development, :test do
   gem 'omniauth'
   gem 'omniauth-github'
   gem 'rspec-rails'
+  gem 'dotenv-rails'
 end
 
 group :development do
